@@ -1,0 +1,2 @@
+# LSV
+A light server
