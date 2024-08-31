@@ -1,0 +1,4 @@
+/home/oliver/cpp_projects/LSV/build/CMakeFiles/client.dir
+/home/oliver/cpp_projects/LSV/build/CMakeFiles/server.dir
+/home/oliver/cpp_projects/LSV/build/CMakeFiles/edit_cache.dir
+/home/oliver/cpp_projects/LSV/build/CMakeFiles/rebuild_cache.dir
