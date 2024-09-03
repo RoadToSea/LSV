@@ -85,3 +85,6 @@ Error Code:98
 2024-08-31 20:05:21 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
 bind func error
 Error Code:98
+2024-09-03 20:22:13 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98

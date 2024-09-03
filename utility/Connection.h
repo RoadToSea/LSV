@@ -4,7 +4,7 @@
 #include "EventLoop.h"
 #include "Socket.h"
 #include "Channel.h"
-
+#include "Buffer.h"
 
 class Connection
 {
@@ -12,6 +12,7 @@ private:
     Socket* m_sock;
     EventLoop* loop;
     Channel* m_ch;
+    Buffer* buffer;
     std::function<void()> execFunc;
     std::function<void()> deleteFunc;
     void DefaultdeleteFunc(void);

@@ -9,6 +9,7 @@ Connection::~Connection()
 Connection::Connection(EventLoop *loop_, Socket *sock_, std::function<void()> dFunc)
 :loop(loop_),m_sock(sock_),deleteFunc(dFunc)
 {
+    buffer = new Buffer();
     m_ch = new Channel(m_sock->getSocket(),loop);
     execFunc = std::bind(&Connection::DefaultexecFuncFormat,this);
     m_ch->setCallback(execFunc);
@@ -18,6 +19,7 @@ Connection::Connection(EventLoop *loop_, Socket *sock_, std::function<void()> dF
 Connection::Connection(EventLoop *loop_, Socket *sock_)
 :loop(loop_),m_sock(sock_)
 {
+    buffer = new Buffer();
     m_ch = new Channel(m_sock->getSocket(),loop);
     execFunc = std::bind(&Connection::DefaultexecFuncFormat,this);
     m_ch->setCallback(execFunc);
@@ -28,6 +30,7 @@ Connection::Connection(EventLoop *loop_, Socket *sock_)
 Connection::Connection(EventLoop *loop_, Socket *sock_,std::function<void()> dFunc,std::function<void()> eFunc)
 :loop(loop_),m_sock(sock_),execFunc(eFunc),deleteFunc(dFunc)
 {
+    buffer = new Buffer();
     m_ch = new Channel(m_sock->getSocket(),loop);
     m_ch->setCallback(eFunc);
     m_ch->addtoRead(); 
@@ -47,6 +50,7 @@ void Connection::DefaultdeleteFunc(void)
 {
     delete m_sock;
     delete m_ch;
+    delete buffer;
 }
 
 void Connection::DefaultexecFuncFormat(void)
@@ -63,7 +67,8 @@ void Connection::DefaultexecFunc(int fd)
         if(recvLen>0)
         {
             std::cout<<"receive info :"<<buf<<std::endl;
-            send(fd,buf,sizeof(buf),0);
+            buffer->append(buf);
+            send(fd,buffer->getCstr(),sizeof(buf),0);
         }
         //系统中断
         else if(recvLen==-1&&errno==EINTR)
@@ -80,6 +85,7 @@ void Connection::DefaultexecFunc(int fd)
         else if(recvLen==0)
         {
             std::cout<<"client disconnect "<<std::endl;
+            buffer->clear();
             close(fd);
             break;
         }
