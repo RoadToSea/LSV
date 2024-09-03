@@ -1,0 +1,90 @@
+2024-08-29 19:49:22 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->42
+epoll_ctl func error
+Error Code:9
+2024-08-30 16:36:29 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->42
+epoll_ctl func error
+Error Code:9
+2024-08-30 16:59:45 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:9
+2024-08-30 17:05:04 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:9
+2024-08-30 17:15:30 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:9
+2024-08-30 17:26:14 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:9
+2024-08-30 17:29:40 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->41
+epoll_ctl func error
+Error Code:9
+2024-08-30 21:38:22 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 21:38:31 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 21:39:44 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 21:41:34 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 21:41:52 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 21:42:06 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:9
+2024-08-30 22:52:10 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 22:54:43 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 23:10:21 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 23:10:48 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 23:13:57 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 23:18:17 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-30 23:19:13 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-31 11:29:50 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-31 11:30:18 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:22
+2024-08-31 11:33:02 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:22
+2024-08-31 11:33:11 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-31 11:39:41 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:22
+2024-08-31 11:44:39 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:22
+2024-08-31 11:47:12 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
+epoll_ctl func error
+Error Code:22
+2024-08-31 20:02:38 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-31 20:05:21 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-09-03 20:22:13 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
