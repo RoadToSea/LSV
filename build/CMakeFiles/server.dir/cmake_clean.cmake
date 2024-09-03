@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/server.dir/server/serverBase.cpp.o.d"
   "CMakeFiles/server.dir/utility/Acceptor.cpp.o"
   "CMakeFiles/server.dir/utility/Acceptor.cpp.o.d"
+  "CMakeFiles/server.dir/utility/Buffer.cpp.o"
+  "CMakeFiles/server.dir/utility/Buffer.cpp.o.d"
   "CMakeFiles/server.dir/utility/Channel.cpp.o"
   "CMakeFiles/server.dir/utility/Channel.cpp.o.d"
   "CMakeFiles/server.dir/utility/Connection.cpp.o"

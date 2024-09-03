@@ -111,10 +111,24 @@ CMakeFiles/server.dir/utility/Acceptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/utility/Acceptor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oliver/cpp_projects/LSV/utility/Acceptor.cpp -o CMakeFiles/server.dir/utility/Acceptor.cpp.s
 
+CMakeFiles/server.dir/utility/Buffer.cpp.o: CMakeFiles/server.dir/flags.make
+CMakeFiles/server.dir/utility/Buffer.cpp.o: ../utility/Buffer.cpp
+CMakeFiles/server.dir/utility/Buffer.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/utility/Buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/Buffer.cpp.o -MF CMakeFiles/server.dir/utility/Buffer.cpp.o.d -o CMakeFiles/server.dir/utility/Buffer.cpp.o -c /home/oliver/cpp_projects/LSV/utility/Buffer.cpp
+
+CMakeFiles/server.dir/utility/Buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/utility/Buffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/oliver/cpp_projects/LSV/utility/Buffer.cpp > CMakeFiles/server.dir/utility/Buffer.cpp.i
+
+CMakeFiles/server.dir/utility/Buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/utility/Buffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/oliver/cpp_projects/LSV/utility/Buffer.cpp -o CMakeFiles/server.dir/utility/Buffer.cpp.s
+
 CMakeFiles/server.dir/utility/Channel.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utility/Channel.cpp.o: ../utility/Channel.cpp
 CMakeFiles/server.dir/utility/Channel.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/server.dir/utility/Channel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/utility/Channel.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/Channel.cpp.o -MF CMakeFiles/server.dir/utility/Channel.cpp.o.d -o CMakeFiles/server.dir/utility/Channel.cpp.o -c /home/oliver/cpp_projects/LSV/utility/Channel.cpp
 
 CMakeFiles/server.dir/utility/Channel.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/server.dir/utility/Channel.cpp.s: cmake_force
 CMakeFiles/server.dir/utility/Connection.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utility/Connection.cpp.o: ../utility/Connection.cpp
 CMakeFiles/server.dir/utility/Connection.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/server.dir/utility/Connection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/utility/Connection.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/Connection.cpp.o -MF CMakeFiles/server.dir/utility/Connection.cpp.o.d -o CMakeFiles/server.dir/utility/Connection.cpp.o -c /home/oliver/cpp_projects/LSV/utility/Connection.cpp
 
 CMakeFiles/server.dir/utility/Connection.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/server.dir/utility/Connection.cpp.s: cmake_force
 CMakeFiles/server.dir/utility/Epoll.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utility/Epoll.cpp.o: ../utility/Epoll.cpp
 CMakeFiles/server.dir/utility/Epoll.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/server.dir/utility/Epoll.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/utility/Epoll.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/Epoll.cpp.o -MF CMakeFiles/server.dir/utility/Epoll.cpp.o.d -o CMakeFiles/server.dir/utility/Epoll.cpp.o -c /home/oliver/cpp_projects/LSV/utility/Epoll.cpp
 
 CMakeFiles/server.dir/utility/Epoll.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/server.dir/utility/Epoll.cpp.s: cmake_force
 CMakeFiles/server.dir/utility/EventLoop.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utility/EventLoop.cpp.o: ../utility/EventLoop.cpp
 CMakeFiles/server.dir/utility/EventLoop.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/server.dir/utility/EventLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/utility/EventLoop.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/EventLoop.cpp.o -MF CMakeFiles/server.dir/utility/EventLoop.cpp.o.d -o CMakeFiles/server.dir/utility/EventLoop.cpp.o -c /home/oliver/cpp_projects/LSV/utility/EventLoop.cpp
 
 CMakeFiles/server.dir/utility/EventLoop.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/server.dir/utility/EventLoop.cpp.s: cmake_force
 CMakeFiles/server.dir/utility/Log.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utility/Log.cpp.o: ../utility/Log.cpp
 CMakeFiles/server.dir/utility/Log.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/server.dir/utility/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/utility/Log.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/Log.cpp.o -MF CMakeFiles/server.dir/utility/Log.cpp.o.d -o CMakeFiles/server.dir/utility/Log.cpp.o -c /home/oliver/cpp_projects/LSV/utility/Log.cpp
 
 CMakeFiles/server.dir/utility/Log.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/server.dir/utility/Log.cpp.s: cmake_force
 CMakeFiles/server.dir/utility/Socket.cpp.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/utility/Socket.cpp.o: ../utility/Socket.cpp
 CMakeFiles/server.dir/utility/Socket.cpp.o: CMakeFiles/server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/server.dir/utility/Socket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/server.dir/utility/Socket.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/server.dir/utility/Socket.cpp.o -MF CMakeFiles/server.dir/utility/Socket.cpp.o.d -o CMakeFiles/server.dir/utility/Socket.cpp.o -c /home/oliver/cpp_projects/LSV/utility/Socket.cpp
 
 CMakeFiles/server.dir/utility/Socket.cpp.i: cmake_force
@@ -200,6 +214,7 @@ server_OBJECTS = \
 "CMakeFiles/server.dir/server/main.cpp.o" \
 "CMakeFiles/server.dir/server/serverBase.cpp.o" \
 "CMakeFiles/server.dir/utility/Acceptor.cpp.o" \
+"CMakeFiles/server.dir/utility/Buffer.cpp.o" \
 "CMakeFiles/server.dir/utility/Channel.cpp.o" \
 "CMakeFiles/server.dir/utility/Connection.cpp.o" \
 "CMakeFiles/server.dir/utility/Epoll.cpp.o" \
@@ -213,6 +228,7 @@ server_EXTERNAL_OBJECTS =
 server: CMakeFiles/server.dir/server/main.cpp.o
 server: CMakeFiles/server.dir/server/serverBase.cpp.o
 server: CMakeFiles/server.dir/utility/Acceptor.cpp.o
+server: CMakeFiles/server.dir/utility/Buffer.cpp.o
 server: CMakeFiles/server.dir/utility/Channel.cpp.o
 server: CMakeFiles/server.dir/utility/Connection.cpp.o
 server: CMakeFiles/server.dir/utility/Epoll.cpp.o
@@ -221,7 +237,7 @@ server: CMakeFiles/server.dir/utility/Log.cpp.o
 server: CMakeFiles/server.dir/utility/Socket.cpp.o
 server: CMakeFiles/server.dir/build.make
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/oliver/cpp_projects/LSV/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -201,4 +201,5 @@ CMakeFiles/server.dir/server/main.cpp.o: \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/oliver/cpp_projects/LSV/utility/Connection.h
+ /home/oliver/cpp_projects/LSV/utility/Connection.h \
+ /home/oliver/cpp_projects/LSV/utility/Buffer.h

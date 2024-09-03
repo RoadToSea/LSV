@@ -265,6 +265,33 @@ utility/Acceptor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Acceptor.cpp.s
 .PHONY : utility/Acceptor.cpp.s
 
+utility/Buffer.o: utility/Buffer.cpp.o
+.PHONY : utility/Buffer.o
+
+# target to build an object file
+utility/Buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utility/Buffer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Buffer.cpp.o
+.PHONY : utility/Buffer.cpp.o
+
+utility/Buffer.i: utility/Buffer.cpp.i
+.PHONY : utility/Buffer.i
+
+# target to preprocess a source file
+utility/Buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utility/Buffer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Buffer.cpp.i
+.PHONY : utility/Buffer.cpp.i
+
+utility/Buffer.s: utility/Buffer.cpp.s
+.PHONY : utility/Buffer.s
+
+# target to generate assembly for a file
+utility/Buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utility/Buffer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Buffer.cpp.s
+.PHONY : utility/Buffer.cpp.s
+
 utility/Channel.o: utility/Channel.cpp.o
 .PHONY : utility/Channel.o
 
@@ -452,6 +479,9 @@ help:
 	@echo "... utility/Acceptor.o"
 	@echo "... utility/Acceptor.i"
 	@echo "... utility/Acceptor.s"
+	@echo "... utility/Buffer.o"
+	@echo "... utility/Buffer.i"
+	@echo "... utility/Buffer.s"
 	@echo "... utility/Channel.o"
 	@echo "... utility/Channel.i"
 	@echo "... utility/Channel.s"
