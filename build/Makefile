@@ -292,6 +292,33 @@ utility/Channel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Channel.cpp.s
 .PHONY : utility/Channel.cpp.s
 
+utility/Connection.o: utility/Connection.cpp.o
+.PHONY : utility/Connection.o
+
+# target to build an object file
+utility/Connection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utility/Connection.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Connection.cpp.o
+.PHONY : utility/Connection.cpp.o
+
+utility/Connection.i: utility/Connection.cpp.i
+.PHONY : utility/Connection.i
+
+# target to preprocess a source file
+utility/Connection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utility/Connection.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Connection.cpp.i
+.PHONY : utility/Connection.cpp.i
+
+utility/Connection.s: utility/Connection.cpp.s
+.PHONY : utility/Connection.s
+
+# target to generate assembly for a file
+utility/Connection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utility/Connection.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utility/Connection.cpp.s
+.PHONY : utility/Connection.cpp.s
+
 utility/Epoll.o: utility/Epoll.cpp.o
 .PHONY : utility/Epoll.o
 
@@ -428,6 +455,9 @@ help:
 	@echo "... utility/Channel.o"
 	@echo "... utility/Channel.i"
 	@echo "... utility/Channel.s"
+	@echo "... utility/Connection.o"
+	@echo "... utility/Connection.i"
+	@echo "... utility/Connection.s"
 	@echo "... utility/Epoll.o"
 	@echo "... utility/Epoll.i"
 	@echo "... utility/Epoll.s"

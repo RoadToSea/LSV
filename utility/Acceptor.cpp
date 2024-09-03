@@ -24,9 +24,7 @@ Acceptor::~Acceptor()
 void Acceptor::acceptConnect(void)
 {
     // Correctly binding Response if it directly accepts Socket* as an argument.
-    std::function<void(Socket*)> func = std::bind(&serverBase::acceptConnect, this, std::placeholders::_1);
-
-    func(m_socket);
+    acceptFunc(m_socket);
 }
 
 void Acceptor::setAcceptFunc(std::function<void(Socket *)> func)

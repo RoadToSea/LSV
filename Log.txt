@@ -79,3 +79,9 @@ Error Code:22
 2024-08-31 11:47:12 [ERROR] /home/oliver/cpp_projects/LSV/utility/Epoll.cpp|->40
 epoll_ctl func error
 Error Code:22
+2024-08-31 20:02:38 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98
+2024-08-31 20:05:21 [ERROR] /home/oliver/cpp_projects/LSV/utility/Socket.cpp|->25
+bind func error
+Error Code:98

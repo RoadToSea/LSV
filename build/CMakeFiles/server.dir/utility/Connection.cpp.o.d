@@ -1,7 +1,7 @@
-CMakeFiles/server.dir/utility/Acceptor.cpp.o: \
- /home/oliver/cpp_projects/LSV/utility/Acceptor.cpp \
+CMakeFiles/server.dir/utility/Connection.cpp.o: \
+ /home/oliver/cpp_projects/LSV/utility/Connection.cpp \
  /usr/include/stdc-predef.h \
- /home/oliver/cpp_projects/LSV/utility/Acceptor.h \
+ /home/oliver/cpp_projects/LSV/utility/Connection.h \
  /home/oliver/cpp_projects/LSV/utility/Epoll.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h /usr/include/features.h \
  /usr/include/features-time64.h \
@@ -197,12 +197,4 @@ CMakeFiles/server.dir/utility/Acceptor.cpp.o: \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /home/oliver/cpp_projects/LSV/utility/../server/serverBase.h \
- /usr/include/memory.h /usr/include/c++/11/map \
- /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h \
- /usr/include/c++/11/bits/erase_if.h \
- /home/oliver/cpp_projects/LSV/utility/Connection.h
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h

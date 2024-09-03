@@ -7,6 +7,8 @@
 #include "Socket.h"
 #include "EventLoop.h"
 #include "Acceptor.h" 
+#include <map>
+#include "Connection.h"
 
 #define MAX_LISNUM      128
 #define MAX_EVENTS      65535
@@ -15,14 +17,15 @@ class serverBase
 {
 private:
    EventLoop* eLoop;
-   Acceptor* accept;
-   void acceptConnect(Socket* sock);
+   Acceptor* acceptor;
+   std::map<int,Connection*> connections;
+
 public:
     serverBase(EventLoop* loop_,InetAddr* addr_);
     ~serverBase();
-
-    void startLis();
     void Response(int fd);
+    void acceptConnection(Socket* sock);
+    void deleteConnection(Connection* cn);
 
 };
 

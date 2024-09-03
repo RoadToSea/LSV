@@ -3,10 +3,10 @@
 
 int main()
 {
-    EventLoop eventloop;
+    EventLoop* eventloop = new EventLoop();
     InetAddr* inetaddr=new InetAddr("127.0.0.1",2345);
-    serverBase server(&eventloop,inetaddr); 
-    eventloop.loop();
+    serverBase* server = new serverBase(eventloop,inetaddr); 
+    eventloop->loop();
 
     return 0;
 }

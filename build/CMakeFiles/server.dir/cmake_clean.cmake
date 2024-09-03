@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/server.dir/utility/Acceptor.cpp.o.d"
   "CMakeFiles/server.dir/utility/Channel.cpp.o"
   "CMakeFiles/server.dir/utility/Channel.cpp.o.d"
+  "CMakeFiles/server.dir/utility/Connection.cpp.o"
+  "CMakeFiles/server.dir/utility/Connection.cpp.o.d"
   "CMakeFiles/server.dir/utility/Epoll.cpp.o"
   "CMakeFiles/server.dir/utility/Epoll.cpp.o.d"
   "CMakeFiles/server.dir/utility/EventLoop.cpp.o"
